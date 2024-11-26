@@ -1,9 +1,9 @@
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
 	background-color: rgb(248, 248, 236);
 }
 
@@ -46,4 +46,44 @@ body {
     color: aliceblue;
 }
 
+.description {
+	display: flex;
+	width: 600px;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+	flex-direction: column;
+}
 
+.description h2 {
+	color: darkred;
+}
+
+
+
+.ingredients {
+	display: flex;
+	width: 600px;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.ingredients h2 {
+	color: darkred;
+}
+
+.instructions {
+	display: flex;
+	width: 600px;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.instructions h2 {
+	color: darkred;
+}
