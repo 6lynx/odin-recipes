@@ -11,7 +11,7 @@ body {
 	display: flex;
 	border: 2px dotted rgb(194, 44, 44);
 	height: auto;
-	width: 1000px;
+	width: 90vh;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
