@@ -7,6 +7,11 @@ body {
 	background-color: rgb(248, 248, 236);
 }
 
+::selection{
+	background-color: darkred;
+	color: rgb(248, 248, 236);
+}
+
 .main-header {
     color: rgb(71, 68, 68);
     text-align: center;
@@ -16,7 +21,7 @@ body {
 
 .main-menu {
     display: flex;
-    border: 2px dotted red;
+    border: 2px dotted rgb(194, 44, 44);
     height: 100px;
     width: 400px;
     align-items: center; 
@@ -41,8 +46,12 @@ body {
     text-align: center;
 }
 
+.main-menu-elements li a {
+	text-decoration: none;
+}
+
 .main-menu-elements li a:hover {
-    background-color: red;
+    background-color: rgb(194, 44, 44);
     color: aliceblue;
 }
 
@@ -58,6 +67,7 @@ body {
 
 .description h2 {
 	color: darkred;
+	text-decoration-line:underline
 }
 
 
@@ -73,6 +83,7 @@ body {
 
 .ingredients h2 {
 	color: darkred;
+	text-decoration-line:underline
 }
 
 .instructions {
@@ -86,4 +97,5 @@ body {
 
 .instructions h2 {
 	color: darkred;
+	text-decoration-line:underline
 }
